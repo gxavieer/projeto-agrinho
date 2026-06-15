@@ -1,7 +1,6 @@
-/* Configurações gerais de cores e fontes */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f9f4; /* Um verde bem clarinho de fundo */
+    background-color: #f4f9f4;
     color: #333333;
     margin: 0;
     padding: 0;
@@ -10,9 +9,8 @@ body {
     min-height: 100vh;
 }
 
-/* Estilo do Topo (Header) */
 header {
-    background-color: #2e7d32; /* Verde forte do Agro */
+    background-color: #2e7d32;
     color: white;
     text-align: center;
     padding: 40px 20px;
@@ -23,7 +21,6 @@ header h1 {
     font-size: 2.5rem;
 }
 
-/* Corpo da página (Main) */
 main {
     flex: 1;
     display: flex;
@@ -41,9 +38,22 @@ main {
     text-align: center;
 }
 
-/* Estilo do Botão */
+/* Estilo para a nova lista */
+.lista-pilares {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.lista-pilares li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
 button {
-    background-color: #f57c00; /* Laranja para destacar */
+    background-color: #f57c00;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -55,10 +65,9 @@ button {
 }
 
 button:hover {
-    background-color: #e65100; /* Escurece o botão ao passar o mouse */
+    background-color: #e65100;
 }
 
-/* Classe para esconder a mensagem do JavaScript no começo */
 .escondido {
     display: none;
     margin-top: 20px;
@@ -69,7 +78,6 @@ button:hover {
     font-weight: bold;
 }
 
-/* Rodapé (Footer) */
 footer {
     background-color: #1b5e20;
     color: white;
